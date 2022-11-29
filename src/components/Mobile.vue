@@ -40,16 +40,13 @@
 
                       <q-card-section class="q-pt-none">
                         <div class="text">
-                          J'ai 22 ans, je suis passionnée par le web, les métiers du digital et
-                          surtout par l'UI design et le web design !<br /><br />
+                          J'ai 22 ans, je suis passionnée par le web, les métiers du digital...<br /><br />
                           Acceptée à L'ISCOD, je souhaiterais continuer
                           avec une troisième année d'alternance dans le but
-                          d'obtenir un BAC+3 en WebDesign.<br /><br />
-                          Après avoir obtenu des connaissances dans le développement web,
-                          je souhaiterai pour cette troisième année apprendre différentes technologies et méthodes abordées tels que la culture graphique, 
-                      les chartes graphiques, la gestion de projet,  les suites adobes (Photoshop; Illustrator; InDesign; Adobe XD; Premiere et After Effect),
-            l'UX &amp; l'UI design; le web marketing ainsi que les CMS tels que Wordpress...<br/>
-            Cela, me permettra d'acquérir différentes connaissances afin de répondre à tous les besoins graphiques et design !<br /><br />
+                          d'obtenir un BAC+3 en <b>WebDesign</b> ou en <b>responsable projet web marketing et communication digitale</b>.<br /><br />
+                          Après avoir obtenu des connaissances dans le développement web et web mobile,
+                          je souhaiterai pour cette troisième année apprendre différentes technologies et méthodes abordées... Tels que le design; l'UX design; le web marketing; la gestion de projet et la communication digitale.<br><br/>
+                          Cela, me permettra d'acquérir différentes connaissances afin de répondre à tous les besoins graphiques; design ou marketing; communication digital !<br /><br />
                         </div>
                       </q-card-section>
 

@@ -96,14 +96,180 @@
       </div>
       <div class="about-content">
         <div class="about-description">
+
           <p>
             Je suis actuellement à la recherche d'un contrat d'apprentissage dans le but de réaliser un Bac+3 en <b>"WebDesign"</b> ou en <b>"Responsable de projet web marketing &amp; communication digitale"</b> à l'<b><a terget="_blank" href="https://www.iscod.fr/">ISCOD</a></b>.
-            <br /><br />- Concernant la formation <b>"Web Design</b>, j'apprendrai différentes technologies et méthodes abordées tels que la culture graphique, 
-            les chartes graphiques, la gestion de projet,  les suites adobes, le dessin et story bording,
-            l'UX &amp; l'UI design; le web marketing ainsi que les CMS tel que Wordpress... <br />
-            - Concernant la formation <b>"Responsable de projet web marketing &amp; communication digitale"</b>, j'apprendrai à intégrer le digital dans sa stratégie et communication plurimédia,
-            conception et pilotage d'un plan marketing online, business plan, cybersécurité (niveau 1), web marketing, créer et maintenir un blog Wordpress, digital brand content, Google Ads, Photoshop,
-            gestion des réseaux sociaux, la web conversion et l'expérience utilisateur, les stratégies marketing cross-canal, la gestion de projet, le référencement naturel, les tableaux de bord et KPIs appliqués au web marketing...
+            <br />
+          </p>
+          <p>Cliquez, pour découvrir les formations :</p>
+            <div class="display">
+                <div class="q-pa-sm q-gutter-md">
+                  <q-btn
+                    push
+                    label="Web Design / Ux Designer"
+                    style="color: #94745B"
+                    @click="small = true"
+                  />
+                  <q-dialog v-model="small">
+                    <q-card style="width: 80%; background-color: #f1eae7;">
+                      <q-card-section>
+                        <div class="text-h6" style="color: #d4af92; font-size: 25px;">
+                          <b>Formation Web designer / Ux Designer</b>
+                        </div>
+                      </q-card-section>
+
+                      <q-card-section class="q-pt-none">
+                        <div class="text">
+                          <div class="text-h6" style="color: #985b27; margin-bottom: 10px; font-weight:600;">
+                            Programme : (durée 12 mois)<br />
+                          </div>
+                           <b style="color: #985b27;">Concevoir les éléments graphiques d’une interface et de supports de communication</b>
+                           <ul class="tech-stack" >
+                            <li>➤ Culture Graphique</li>
+                            <li>➤ Photoshop  (Niv 1 | Niv 2 | Niv 3 | Niv 4)</li>
+                            <li>➤ Illustrator</li>
+                            <li>➤ Indesign  (Niv 1 | Niv 2)</li>
+                            <li>➤ Dessin et Storyboard</li>
+                            <li>➤ Adobe Premiere Pro : les fondamentaux du montage vidéo</li>
+                            <li>➤ Adobe Premiere Pro : fonctionnalités avancées du montage vidéo</li>
+                            <li>➤ After Effects</li>
+                            <li>➤ Wireframing</li>
+                            <li>➤ Gestion de projet web</li>
+                            <li>➤ Rédiger un Cahier des Charges pour un Projet Digital</li>
+                            <li>➤ UX/UI</li>
+                          </ul>
+
+                          <br />
+
+                           <b style="color: #94745B;">Contribuer à la gestion et au suivi d’un projet de communication numérique</b>
+                           <ul class="tech-stack">
+                            <li>➤ Marketing Digital - Web Marketing</li>
+                            <li>➤ Optimiser sa veille & ses recherches sur le Web</li>
+                            <li>➤ Digital Brand Content</li>
+                            <li>➤ Ecriture web</li>
+                            <li>➤ Référencement Naturel</li>
+                            <li>➤ Réseaux Sociaux</li>
+                            <li>➤ PowerPoint 2019</li>
+                            <li>➤ Word 2019</li>
+                            <li>➤ Excel 2019</li>
+                          </ul>
+
+                          
+                          <br />
+
+                           <b style="color: #94745B;">Réaliser, améliorer et animer des sites web</b>
+                           <ul class="tech-stack">
+                            <li>➤ Les bases techniques du Web pour non-techniciens</li>
+                            <li>➤ JavaScript et JQuery</li>
+                            <li>➤ PHP</li>
+                            <li>➤ Création & animation d'un Blog Professionnel avec WordPress</li>
+                            <li>➤ Création de site web avec HTML5 et CSS3</li>
+                            <li>➤ Tutoriels Conception web</li>
+                            <li>➤ Responsive Web Design</li>
+                            <li>➤ Piloter la création d’un site internet</li>
+                          </ul>
+
+                          <br />
+
+                          <b style="color: #94745B;">Modules de mise à niveau préparatoire et renforcement</b>
+                          <ul class="tech-stack">
+                          <li>➤ Méthodologie de conception de site web</li>
+                          <li>➤ Communiquer en Mode Projet</li>
+                          <li>➤ Création de site e-commerce</li>
+                          <li>➤ Web Conversion et Expérience Utilisateur</li>
+                          <li>➤ Culture et Transformation Digitale</li>
+                          <li>➤ Les fondamentaux du fonctionnement de l'entreprise</li>
+                          <li>➤ Logique financière de l'entreprise</li>
+                          <li>➤ Optimiser ses écrits professionnels</li>
+                          <li>➤ Gérer des outils collaboratifs</li>
+                        </ul>
+
+                        </div>
+                      </q-card-section>
+
+                      <q-card-actions align="right" class="nothing" style="color: #985b27;">
+                        <q-btn flat label="OK" v-close-popup />
+                      </q-card-actions>
+                    </q-card>
+                  </q-dialog>
+                </div>
+
+                <div class="q-pa-sm q-gutter-md">
+                  <q-btn
+                    push
+                    label="Responsable de projet web marketing & communication digitale."
+                    style="color: #94745B"
+                    @click="persistent = true"
+                  />
+
+                  <q-dialog v-model="persistent" >
+                    <q-card class="text-brown" style="width: 80%; background-color: #f1eae7;">
+                      <q-card-section>
+                        <div class="text-h6" style="color: #d4af92; font-size: 25px;">
+                          <b>Responsable de projet web marketing & communication digitale.
+</b>
+                        </div>    
+                      </q-card-section>
+
+                      <q-card-section class="q-pt-none">
+                        <div class="text">
+                          <div class="text-h6" style="color: #985b27; margin-bottom: 10px; font-weight:600;">
+                            Programme : (durée 12 mois)<br />
+                          </div>
+                           <b style="color: #985b27;">Analyse de la stratégie de webmarketing et de communication digitale du client ou de l’entreprise</b>
+                           <ul class="tech-stack" style="color: black;" >
+                            <li>➤ Bien Intégrer le Digital dans sa stratégie de communication plurimédia</li>
+                            <li>➤ Concevoir et Piloter un plan marketing online</li>
+                            <li>➤ Culture et Transformation Digitale</li>
+                            <li>➤ Elaborer un business plan</li>
+                            <li>➤ Initiation à la Cybersécurité (Niv 1)</li>
+                            <li>➤ Marketing Digital - Web Marketing</li>
+                            <li>➤ Marketing Stratégique</li>
+                            <li>➤ Optimiser sa veille & ses recherches sur le Web</li>
+                          </ul>
+
+                          <br />
+
+                           <b style="color: #94745B;">Conception de la stratégie de webmarketing et de la communication digitale</b>
+                           <ul class="tech-stack" style="color: black;">
+                            <li>➤ Concevoir et développer une stratégie marketing cross-canalg</li>
+                            <li>➤ Création & animation d'un Blog Professionnel avec WordPress</li>
+                            <li>➤ Digital Brand Content</li>
+                            <li>➤ Email Marketing</li>
+                            <li>➤ Google Ads </li>
+                            <li>➤ Photoshop (Niv 3)</li>
+                            <li>➤ Réseaux Sociaux</li>
+                            <li>➤ Web Conversion et Expérience Utilisateur</li>
+                          </ul>
+
+                          
+                          <br />
+
+                           <b style="color: #94745B;">Pilotage et mise en oeuvre du projet webmarketing et de la communication digitale</b>
+                           <ul class="tech-stack" style="color: black;">
+                            <li>➤ Gestion de projet web</li>
+                            <li>➤ Google Analytics : Certification</li>
+                            <li>➤ Google Analytics</li>
+                            <li>➤ Les bases techniques du Web pour non-techniciens</li>
+                            <li>➤ Méthodes Agiles</li>
+                            <li>➤ Piloter une refonte de site Web</li>
+                            <li>➤ Rédiger un Cahier des Charges pour un Projet Digital</li>
+                            <li>➤ Référencement Naturel</li>
+                            <li>➤ Tableaux de Bord et KPIs appliqués au Web Marketing</li>
+                          </ul>
+
+                        </div>
+                      </q-card-section>
+
+                      <q-card-actions align="right" class="nothing" style="color: #985b27;">
+                        <q-btn flat label="OK" v-close-popup />
+                      </q-card-actions>
+                    </q-card>
+                  </q-dialog>
+                </div>
+              </div>
+              
+            <p>
             <br /><br />
             <strong>En 3 lignes, l'ISCOD c'est :</strong><br/>
             - Une école 100% en ligne.<br />
@@ -872,16 +1038,24 @@ import { onMounted, onUnmounted } from "vue";
 import { ref } from "vue";
 
 
+
+
 export default {
   name: "Web-page",
   props: {},
   setup() {
+    const dialog = ref(false);
+
+
     onMounted(() => {
       document.addEventListener("scroll", animateIfInView);
     });
     onUnmounted(() => {
       document.removeEventListener("scroll", animateIfInView);
     });
+
+
+
     function animateIfInView() {
       console.log("je rentre");
       var monTableau = document.getElementsByClassName("fade-in-section");
@@ -894,6 +1068,7 @@ export default {
           element.classList.remove("is-visible");
         }
       }
+      
 
       function isElementInViewport(el) {
         var rect = el.getBoundingClientRect();
@@ -916,13 +1091,30 @@ export default {
       splitterModel: ref(20),
       carousel: ref(false),
       slide: ref(1),
+      dialog,
+      small: ref(false),
+      persistent: ref(false),
+
+
+
+      open() {
+        dialog.value = true;
+      }
+      
     };
+
+
+    
   },
+
+  
 
 };
 </script>
 
 <style scoped>
+
+
 .content {
   width: 100%;
   overflow-x: hidden;
@@ -999,6 +1191,15 @@ export default {
 }
 
 /* about---------------------------- */
+.q-pa-sm {
+    padding: 8px 8px;
+    width: 50%;
+    display: flex;
+}
+.display{
+  display: flex;
+  width: 100%;
+}
 
 #about {
   padding-left: 10%;
